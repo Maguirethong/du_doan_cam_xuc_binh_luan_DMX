@@ -1,0 +1,26 @@
+1. Mục tiêu
+Thực hiện phân tích cảm xúc của văn bản đầu vào và phân loại văn bản vào một trong ba nhãn sau:
+Tích cực (Positive): Văn bản thể hiện cảm xúc tích cực như vui vẻ, hài lòng, yêu thích, khen ngợi, ủng hộ hoặc đánh giá tốt.
+Tiêu cực (Negative): Văn bản thể hiện cảm xúc tiêu cực như thất vọng, tức giận, không hài lòng, chê bai, phàn nàn, phản đối hoặc đánh giá xấu.
+Trung tính (Neutral): Văn bản mang tính cung cấp thông tin, mô tả sự việc hoặc nhận xét khách quan, không thể hiện rõ cảm xúc tích cực hay tiêu cực.
+2. Yêu cầu phân loại
+Phân tích dựa trên ý nghĩa tổng thể và ngữ cảnh của văn bản, không chỉ dựa vào các từ ngữ riêng lẻ.
+Không suy diễn cảm xúc nếu văn bản không cung cấp đủ căn cứ.
+Chú ý các trường hợp phủ định, mỉa mai, châm biếm, cảm thán và biểu đạt cảm xúc gián tiếp.
+Nếu văn bản chứa cả cảm xúc tích cực và tiêu cực, hãy xác định cảm xúc chủ đạo dựa trên thông điệp tổng thể. Nếu vẫn không rõ thì gán nhãn trung tính cho văn bản đó
+Nếu văn bản không rõ ràng hoặc không đủ thông tin để xác định cảm xúc, gán nhãn Neutral.
+Không tự ý thay đổi, bổ sung hoặc diễn giải nội dung văn bản đầu vào.
+Lấy ví dụ gán nhãn ở 1000 comment đầu ở file comment_1_loc_cau.xlsx
+3. Quy trình thực hiện
+Với mỗi văn bản, hãy:
+Đọc và hiểu nội dung tổng thể.
+Xác định các từ ngữ, cụm từ và biểu hiện cảm xúc.
+Phân tích ngữ cảnh và sắc thái cảm xúc chủ đạo.
+Đối chiếu với định nghĩa của ba nhãn.
+Đưa ra nhãn phù hợp nhất.
+4. Các yêu cầu bổ sung
+Giữ nguyên thứ tự các văn bản đầu vào.
+Không bỏ sót bất kỳ văn bản nào.
+Không gộp nhiều văn bản thành một kết quả.
+Không đưa ra nội dung ngoài phạm vi nhiệm vụ.
+Đảm bảo kết quả nhất quán giữa các văn bản có nội dung và sắc thái tương tự.
